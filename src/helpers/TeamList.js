@@ -12,12 +12,12 @@ export const TeamList = [
     text: "Drives busses",
   },
   {
-    name: "Diane O'Conner",
+    name: "Diane O'Connor",
     image: Photo1,
     text: "Leader",
   },
   {
-    name: "Mitch O'Conner",
+    name: "Mitch O'Connor",
     image: Photo1,
     text: "Has cool car speakers",
   },

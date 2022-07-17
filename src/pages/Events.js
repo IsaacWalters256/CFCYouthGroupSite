@@ -9,7 +9,7 @@ function Events() {
         <h1 className="eventTitle">Our Upcoming Events</h1>
         <div className="eventList">
             {EventList.map((eventItem, key) => {
-                return <EventItem key={key} image={eventItem.image} name={eventItem.name} text={eventItem.text} />
+                return <EventItem key={key} itemDetails={eventItem} />
             })}
         </div>
     </div>

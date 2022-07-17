@@ -15,7 +15,7 @@
     width: 70vw;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     place-items: center;
   }
   
@@ -23,22 +23,24 @@
   
   .eventItem {
     border-radius: 15px;
-    width: 300px;
-    height: 350px;
+    width: 900px;
+    height: 300px;
     margin: 20px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   }
   .eventItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in;
-    cursor: pointer;
+    /*cursor: pointer;*/
   }
   
-  .eventItem div {
+  .eventImage {
     border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    width: 100%;
-    height: 200px;
+    border-bottom-left-radius: 15px;
+    width: 300px;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,17 +49,41 @@
   .eventItem h1,
   .eventItem p {
     margin-left: 20px;
+    margin-right: 20px;
   }
   
-  @media only screen and (max-width: 1300px) {
-    .eventList {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-  
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1000px) {
+    /* Have it so the text will move bellow the image */
     .eventList {
       grid-template-columns: 1fr;
+    }
+
+    .eventItem {
+      border-radius: 15px;
+      width: 300px;
+      height: 350px;
+      margin: 20px;
+      box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    }
+    .eventItem:hover {
+      box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+      transition: 0.3s ease-in;
+      cursor: pointer;
+    }
+    
+    .eventItem div {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      width: 100%;
+      height: 200px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .eventItem h1,
+    .eventItem p {
+      margin-left: 20px;
     }
   }
   

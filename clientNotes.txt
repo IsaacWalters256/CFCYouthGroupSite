@@ -1,21 +1,30 @@
-1 Timothy 4:12 scripture picture for ministry page
+
 
 Current topics/lessions we are talking about
 
 It's O'Connor
 
-Home, when youth group meets, gives special directions for 1st and 5th sundays
-Address 
+Home Page
+    when the youth group meets (special directions for 1st and 5th sundays)
+    Address
+    Have perks (food cart, couches?) with pictures on main page, past activities
+    Slideshow on home screen of pictures of past events, right hand side
+    Text on left hand side
 
-Have perks with pictures on main page
+Team Page:
+    Diane portrait top left with her text box to the right of it
+    Rest of youth team members have row of portraits with names below them
+        Get pictures of all youth leaders/members
 
-Larger leader box on top, with smaller group members on bottom area with just labels who name
+Events Page:
+    List of upcoming events 
+    The list of events has most close ones date wise at top 
+    Image on the left side of event box with text on right
+    A button that can print out the yearly event form
+    Each event needs its own permission slip button 
+        Look into online signing. 
+    Issues with sizeing, expesually right before transistion (7/16/2022)
 
-Slideshow on home screen of pictures of past events 
-Slide show in the corner
-Text on left, slideshow on right
+Ministry Page:
+    1 Timothy 4:12 scripture picture xx
 
-Future events page, with some me placeholder image. With text on right side?
-Event page have space for permissions slips to print off (button for each upcoming event)
-And one for general yearly form
-Look into online signing
