@@ -17,12 +17,12 @@ Team Page:
         Get pictures of all youth leaders/members
 
 Events Page:
-    List of upcoming events 
-    The list of events has most close ones date wise at top 
-    Image on the left side of event box with text on right
-    A button that can print out the yearly event form
-    Each event needs its own permission slip button 
-        Look into online signing. 
+    List of upcoming events xxx
+    The list of events has most close ones date wise at top x
+    Image on the left side of event box with text on right xxx
+    A button that can print out the yearly event form xx
+    Each event needs its own permission slip button xx
+        Look into online signing. v
     Issues with sizeing, expesually right before transistion (7/16/2022)
 
 Ministry Page:

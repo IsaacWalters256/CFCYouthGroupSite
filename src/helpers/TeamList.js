@@ -2,33 +2,19 @@ import Photo1 from "../assets/TempTeam.jpg";
 
 export const TeamList = [
   {
-    name: "Greg",
-    image: Photo1,
-    text: "Plays Guitar",
+    name: "Greg Roberts",
+    image: Photo1
   },
   {
-    name: "Bonnie",
-    image: Photo1,
-    text: "Drives busses",
-  },
-  {
-    name: "Diane O'Connor",
-    image: Photo1,
-    text: "Leader",
+    name: "Bonnie Willis",
+    image: Photo1
   },
   {
     name: "Mitch O'Connor",
-    image: Photo1,
-    text: "Has cool car speakers",
+    image: Photo1
   },
   {
-    name: "Isaac",
-    image: Photo1,
-    text: "plays violin",
-  },
-  {
-    name: "Someone im probably forgetting",
-    image: Photo1,
-    text: "sorry i forgot you",
+    name: "Isaac Walters",
+    image: Photo1
   },
 ];
