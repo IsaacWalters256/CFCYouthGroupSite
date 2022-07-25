@@ -5,12 +5,20 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
   }
   .event .eventTitle {
-    font-family: cursive;
+    font-family: cursive; /*font-family: Verdana, sans-serif;*/
     font-size: 60px;
+    margin-bottom: 0px;
   }
   
+  .eventsDesc {
+    margin-bottom: 5px;
+    width: 60%;
+    text-align: center;
+  }
+
   .eventList {
     width: 70vw;
     height: auto;
@@ -28,10 +36,10 @@
     margin: 20px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   }
+
   .eventItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in;
-    /*cursor: pointer;*/
   }
   
   .eventImage {
@@ -47,12 +55,45 @@
   }
   
   .eventItem h1,
+  .eventItem h3,
   .eventItem p {
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 20px;
     margin-right: 20px;
   }
+
+  .button-form {
+    background-color: lightgray;
+    border: 1px solid;
+    border-radius: 16px;
+    cursor: pointer;
+  }
   
   @media only screen and (max-width: 1000px) {
+
+    .event {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .event .eventTitle {
+      font-family: cursive;
+      font-size: 35px;
+      text-align: center;
+    }
+    
+    .eventList {
+      width: 100%;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      place-items: center;
+    }
+
     /* Have it so the text will move bellow the image */
     .eventList {
       grid-template-columns: 1fr;
@@ -61,7 +102,7 @@
     .eventItem {
       border-radius: 15px;
       width: 300px;
-      height: 350px;
+      height: auto;
       margin: 20px;
       box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     }
@@ -74,16 +115,30 @@
     .eventItem div {
       border-top-left-radius: 15px;
       border-top-right-radius: 15px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
       width: 100%;
       height: 200px;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
     }
+
+    .eventItem h1 {
+      font-size: 150%;
+    }
     
     .eventItem h1,
+    .eventItem h3,
     .eventItem p {
-      margin-left: 20px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .button-form {
+      margin-left: 10px;
     }
   }
   
