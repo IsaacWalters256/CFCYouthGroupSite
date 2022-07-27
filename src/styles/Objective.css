@@ -6,7 +6,7 @@
   
   .objective .leftSide {
     height: 100%;
-    flex: 50%;
+    flex: 35%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,7 +14,7 @@
   
   .objective .rightSide {
     height: 100%;
-    flex: 50%;
+    flex: 65%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,9 +25,29 @@
       "Lucida Sans", Arial, sans-serif;
     font-weight: 10;
     font-size: 50px;
-    margin-left: 30px;
+    margin-left: 50px;
+  }
+
+  .objective .rightSide p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 10;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 70px;
+  }
+
+  .objective .rightSide .image-transcript p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 10;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 70px;
+    display: none;
   }
   
+  /* stuff bellow is marked for removal */
   form {
     display: flex;
     flex-direction: column;
@@ -78,4 +98,72 @@
     font-size: 15px;
     cursor: pointer;
   }
+
+  @media only screen and (max-width: 1300px) {
+    .objective {
+      width: 100%;
+      height: 90vh;
+      display: block;
+    }
+    
+    .objective .leftSide {
+      display: none;
+    }
+    .objective .rightSide {
+      height: 100%;
+      flex: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .objective .rightSide h1 {
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      font-weight: 10;
+      font-size: 50px;
+      margin-left: 50px;
+      margin-top: 0px;
+    }
   
+    .objective .rightSide p {
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      font-weight: 10;
+      font-size: 15px;
+      margin-left: 50px;
+      margin-right: 70px;
+    }
+
+    .objective .rightSide .image-transcript p {
+      display: block;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+
+    .objective .rightSide {
+    height: 100%;
+    flex: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .objective .rightSide h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 10;
+    font-size: 50px;
+    margin-left: 50px;
+  }
+
+  .objective .rightSide p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 10;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 70px;
+  }
+  }

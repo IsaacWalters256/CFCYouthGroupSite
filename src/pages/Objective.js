@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageLeft from '../assets/ImageLeft.jpg';
+import ImageLeft from '../assets/MinistryTimothySripture.jpg';
 import "../styles/Objective.css";
 //mission statement and objective
 function Objective() {
@@ -14,6 +14,10 @@ function Objective() {
                 <p>
                   Words Words word word wordWords Words word word wordWords Words word word wordWords Words word word wordWords Words word word wordWords Words word word word
                 </p>
+            </div>
+            <div className="image-transcript">
+              <p>"Don't let anyone look down on you because you are young, but set an example for the believers in speech, in conduct, in love, in faith and in purity."</p>
+              <p>1 Timothy 4:12</p>
             </div>
         </div>
     </div>
