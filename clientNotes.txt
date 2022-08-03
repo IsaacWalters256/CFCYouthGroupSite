@@ -12,9 +12,9 @@ Home Page
     Text on left hand side
 
 Team Page:
-    Diane portrait top left with her text box to the right of it
-    Rest of youth team members have row of portraits with names below them
-        Get pictures of all youth leaders/members
+    Diane portrait top left with her text box to the right of it xx
+    Rest of youth team members have row of portraits with names below them xx
+        Get pictures of all youth leaders/members 
 
 Events Page:
     List of upcoming events xxx
