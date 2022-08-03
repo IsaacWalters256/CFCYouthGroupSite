@@ -8,7 +8,8 @@
 
   }
   .event .eventTitle {
-    font-family: cursive; /*font-family: Verdana, sans-serif;*/
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
     font-size: 60px;
     margin-bottom: 0px;
   }
@@ -81,7 +82,8 @@
       flex-direction: column;
     }
     .event .eventTitle {
-      font-family: cursive;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
       font-size: 35px;
       text-align: center;
     }
